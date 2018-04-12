@@ -1,0 +1,239 @@
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-color: rgba(250, 236, 157, 0.87);*/
+}
+
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -100;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    opacity: 0.5;
+}
+
+body {
+    font-family: vantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    min-height: 100%;
+    background-color: beige;
+}
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    border: none;
+    width: 100%;
+}
+
+.panel.footer {
+    background color: rgba(92, 207, 63, 0.8);
+    margin-bottom: 0;
+}
+
+.panel.panel-default {
+    border: none;
+}
+
+header {
+    font-family: vantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 0.75em;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 1%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+.list-pets-menu {
+    text-align: center;
+    background-color: #E9967A;
+    font-size: medium;
+    padding: 5% 10%;
+    margin: 5% 10%;
+    border-radius: 5px;
+    color: antiquewhite;
+}
+
+.list-pets-menu:hover {
+    color: black;
+}
+
+
+.panel-body{
+    border: none;
+    background-color: rgba(42, 171, 162, 0.53);
+    opacity: 0.8;
+}
+
+.site-body {
+    font-family: vantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    margin: 20% auto;
+    padding-bottom: 10%;
+    position: center;
+}
+
+/* Landing page texts*/
+
+.landing-text{
+    text-align: center;
+    font-size: 350%;
+    margin: 0 20% 0 20%;
+}
+
+.motivate {
+    font-weight: 400;
+}
+
+.register {
+    padding: 5%;
+}
+
+.together {
+    font-weight: bold;
+}
+
+.reg-btns {
+    margin: 0 15% 0 15%;
+    padding: 0 10% 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg-btn {
+    border: 2px solid rgba(42, 171, 98, 0.62);
+    background: none;
+    border-radius: 5px;
+    margin: 1% 40px 1% 40px;
+    touch-action: manipulation;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: medium;
+    font-weight: 700;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    position: center;
+}
+
+.reg-btn:hover {
+    background: rgba(158, 231, 84, 0.81);
+}
+
+.container.animal-container{
+    position: center;
+    width: 70%;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 5px;
+    background-color: rgba(137, 220, 54, 0.65);
+}
+
+.media-body {
+    color: rgba(53, 7, 53, 0.81);
+    margin-left: 2%;
+    padding-left: 2%;
+    z-index: 500;
+}
+
+.media-object{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 120px;
+    min-height: 10%;
+}
+
+#animal-gender {
+    font-size: 0.8em;
+}
+
+/*Dropdown*/
+
+.dropdown-toggle {
+    background-color: rgba(42, 171, 98, 0.62);
+    font-size: medium;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10%;
+}
+
+.dropdown-toggle:hover {
+    color: rgba(132, 215, 49, 0.66);
+}
+
+.login {
+
+    margin-bottom:5px;
+}
+
+.login:hover{
+    background-color: rgba(42, 171, 162, 0.13);
+}
+
+
+.dropdown-menu {
+    width: 300px !important;
+    padding: 10px;
+    z-index: 200;
+}
+
+.btn.btn-primary{
+    /*background-image: linear-gradient(to bottom, rgba(95, 44, 18, 0.61) 0, rgba(100, 46, 19, 0.6) 100%);*/
+    color: white;
+    position: right;
+}
+
+.btn.btn-primary:hover{
+    color: white;
+}
+
+.pet-name {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pet-name:hover {
+    color: rgba(36, 17, 7, 0.64);
+}
+
+.register-form{
+    background-color: rgba(137, 220, 54, 0.65);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    text-align: center;
+}
+#sing-in:hover{
+    color: antiquewhite;
+    background-color: rgba(231, 124, 18, 0.78);
+}
+
+#register{
+    background-color: antiquewhite;
+    padding: 10px;
+}
